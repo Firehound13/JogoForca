@@ -26,7 +26,7 @@ def verificar_letra_informada(palavra_secreta, suas_tentativas, tentativas):
         else:
             status += '*'
 
-        if letra.lower() == tentativa.lower():
+        if letra.lower() == tentativas.lower():
             acertos += 1
 
     print(f"\n Acertou {acertos} letra(s), '{tentativas}'")
