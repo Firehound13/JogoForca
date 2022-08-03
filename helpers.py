@@ -63,7 +63,7 @@ def jogo(palavra_secreta):
 
         # Se a letra já foi informada ou advinhada
         if letra_tentativa in suas_tentativas:
-          pass
+          print("****ATENÇÃO**** Você já tentou essa letra")
         elif len(letra_tentativa) == 1:
          # Adicionando a letra no local correto da palavra
          suas_tentativas.append(letra_tentativa)
